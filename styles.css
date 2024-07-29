@@ -1,1 +1,136 @@
-/* your code here */
+/* your code here */ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: palegreen;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #011e29;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 500px;
+}
+
+.product__photo, .product__info {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-main {
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+
+.photo-main img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.photo-album ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.photo-album li {
+    margin-right: 10px;
+}
+
+.photo-album img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.title span {
+    font-size: 14px;
+    color: #888;
+}
+
+.price {
+    font-size: 24px;
+    color: #011e29;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.variant h3 {
+    margin: 20px 0 10px 0;
+}
+
+.variant ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.variant li {
+    cursor: pointer;
+}
+
+.variant img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.description h3 {
+    margin-top: 20px;
+}
+
+.description p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.add-to-cart {
+    margin-top: 20px;
+}
+
+.add-to-cart button {
+    background-color: #;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
